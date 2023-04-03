@@ -589,10 +589,6 @@ video {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
-.justify-end {
-  justify-content: flex-end;
-}
-
 .justify-between {
   justify-content: space-between;
 }
@@ -650,21 +646,17 @@ video {
   background-color: rgb(225 29 72 / var(--tw-bg-opacity));
 }
 
-.text-left {
-  text-align: left;
-}
-
 .text-center {
   text-align: center;
-}
-
-.text-right {
-  text-align: right;
 }
 
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.font-extrabold {
+  font-weight: 800;
 }
 
 .text-slate-600 {
